@@ -20,14 +20,14 @@ EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"  # can override from env too
 DEBUG = os.getenv("DEBUG", "False").lower() == "true"
 
 # Example PostgreSQL URI
-SQLALCHEMY_DATABASE_URI = "postgresql+psycopg2://root:root@localhost:3306/travel_db"
+SQLALCHEMY_DATABASE_URI = "postgresql+psycopg2://USER:PASS@localhost:PORT/travel_db"
 
 # OpenAI API Key
 OPENAI_API_KEY = "your-openai-api-key"
 
 
-GROQ_API_KEY= "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"
+GROQ_API_KEY= ""
 
 # SerpAPI API Key
-SERPAPI_API_KEY = "2f2b4a2216ba07b14c88c0f6edad834db4e45f51ca781d1db802c535197d7bb1"
+SERPAPI_API_KEY = ""
 
